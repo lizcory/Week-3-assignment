@@ -7,3 +7,8 @@ div.charts {
     height: 150px;
     margin-top: 50px;
 }
+
+/* add color to all the bars */
+svg.year > g.container rect {
+    fill: seagreen;
+}
